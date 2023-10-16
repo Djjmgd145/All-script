@@ -29,13 +29,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWa
 
     print("Clicked")
 end)
-Section:NewButton("Killer", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
-
-    print("Clicked")
-end)
-Section:NewButton("Blox Fruit", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
-
-    print("Clicked")
-end)
