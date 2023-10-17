@@ -1,4 +1,7 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+Section:NewKeybind("key system", "KeybindInfo", Enum.KeyCode.Djj, function()
+	print("hi")
+end)
 local Window = Library.CreateLib("all script beta", "Ocean")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
